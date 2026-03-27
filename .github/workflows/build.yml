@@ -36,7 +36,7 @@ jobs:
       - id: set
         run: |
           TYPE="${{ inputs.build_type }}"
-          [ "${{ github.event_name }}" != "workflow_dispatch" ] && TYPE="both"
+          [ "${{ github.event_name }}" != "workflow_dispatch" ] && TYPE="debug"
 
           DEBUG="false"; RELEASE="false"; LIST=""
           [ "$TYPE" = "both" -o "$TYPE" = "debug" ] && { DEBUG="true"; LIST="folkpatch-debug-${{ github.sha }}"; }
