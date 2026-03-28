@@ -17,7 +17,7 @@
     <string name="android_patch">AndroidPatch</string>
 
     <string name="settings_nav_layout_title">Configuração do Layout de Navegação</string>
-    <string name="settings_nav_layout_summary">Ocultar ou mostrar alguns componentes de navegação</string>
+    <string name="settings_nav_layout_summary">Ocultar ou mostrar componentes de navegação</string>
     <string name="settings_nav_scheme">Esquema de navegação</string>
     <string name="settings_nav_mode">Modo da barra de navegação</string>
     <string name="settings_nav_mode_summary">Escolha como a barra de navegação é exibida</string>
@@ -27,7 +27,7 @@
     <string name="settings_nav_mode_floating">Barra inferior flutuante</string>
     <string name="settings_show_apm">Mostrar módulos do sistema</string>
     <string name="settings_show_kpm">Mostrar KPM</string>
-    <string name="settings_show_superuser">Mostrar SuperUser</string>
+    <string name="settings_show_superuser">Mostrar Superusuário</string>
     <string name="settings_floating_auto_hide">Ocultar Automaticamente</string>
     <string name="settings_floating_auto_hide_summary">Ocultar automaticamente a barra flutuante após 3 segundos de inatividade</string>
     <string name="settings_floating_swipe_hide">Ocultar ao Deslizar</string>
@@ -75,13 +75,13 @@
     <string name="settings_grid_working_card_hide_mode">Ocultar modo de operação</string>
     <string name="settings_grid_working_card_hide_mode_summary">Ocultar o texto \'Completo\' ou \'Metade\' no cartão de status</string>
 
-    <string name="settings_folkx_engine_title">FolkX Animation Engine</string>
-    <string name="settings_folkx_engine_summary">Usar animação de mola baseada em física suave ao alternar entre páginas de nível superior</string>
+    <string name="settings_folkx_engine_title">Motor de animação FolkX</string>
+    <string name="settings_folkx_engine_summary">Usar uma animação suave ao alternar entre páginas de nível superior</string>
     <string name="settings_folkx_animation_type">Tipo de Animação</string>
     <string name="settings_folkx_animation_speed">Velocidade da Animação</string>
     <string name="settings_folkx_animation_linear">Movimento Linear</string>
     <string name="settings_folkx_animation_spatial">Movimento Espacial</string>
-    <string name="settings_folkx_animation_fade">Fade In/Out</string>
+    <string name="settings_folkx_animation_fade">Desvanecer Entrada e Saida</string>
     <string name="settings_folkx_animation_vertical">Deslize Vertical</string>
     <string name="settings_folkx_animation_diagonal">Deslize Diagonal</string>
 
@@ -112,7 +112,7 @@
     <string name="su_audit_tab_usage">Registro de Uso</string>
     <string name="su_audit_tab_operations">Registro de Operações</string>
 
-    <string name="home_learn_apatch">Aprenda FolkPatch</string>
+    <string name="home_learn_apatch">Aprenda o FolkPatch</string>
     <string name="home_click_to_learn_apatch">Saiba mais sobre os recursos do FolkPatch e como usar</string>
     <string name="settings_hide_apatch_card">Ocultar cartão Aprenda FolkPatch</string>
     <string name="settings_hide_apatch_card_summary">Ocultar o cartão informativo do FolkPatch na tela inicial</string>
@@ -484,7 +484,7 @@ Aqui estão algumas possíveis razões para a falha de autenticação—verifiqu
     <string name="settings_new_app_profile_normal">SEM ROOT</string>
     <string name="settings_new_app_profile_root">ROOT</string>
     <string name="settings_new_app_profile_exclude">Excluir</string>
-    <string name="settings_hide_service">FolkPatch Hide</string>
+    <string name="settings_hide_service">Ocultar FolkPatch</string>
     <string name="settings_hide_service_summary">Ocultar o status de desbloqueio do bootloader em certa medida</string>
     <string name="settings_app_title">Título do App</string>
     <string name="app_title_custom">Personalizado</string>
@@ -657,26 +657,26 @@ Por favor, certifique-se de fechar completamente o app e reabri-lo para que os c
     <string name="settings_auto_backup_boot_summary">Fazer backup automático do Boot para armazenamento local (Downloads/FolkPatch/BootBackups)</string>
 
     <!-- Home Layout Strings -->
-    <string name="settings_home_layout_style">Estilo de Layout Inicial</string>
-    <string name="settings_home_layout_default">Lista (ListUI)</string>
-    <string name="settings_home_layout_grid">Grade (GridUI)</string>
-    <string name="settings_home_layout_focus">Foco (FocusUI)</string>
-    <string name="settings_home_layout_sign">SignUI</string>
-    <string name="settings_home_layout_circle">CircleUI</string>
-    <string name="settings_home_layout_dashboard_pro">DashboardUI</string>
-    <string name="unofficial_version_title">Versão Não Oficial</string>
-    <string name="unofficial_version_message">Você está usando o FolkPatch que não é o app oficial, por favor baixe o app oficial!</string>
-    <string name="go_to_github">Ir para Github</string>
+    <string name="settings_home_layout_style">Layout da tela inicial</string>
+    <string name="settings_home_layout_default">Lista</string>
+    <string name="settings_home_layout_grid">Grade</string>
+    <string name="settings_home_layout_focus">Foco</string>
+    <string name="settings_home_layout_sign">Carrossel</string>
+    <string name="settings_home_layout_circle">Circular</string>
+    <string name="settings_home_layout_dashboard_pro">Painel Pro</string>
+    <string name="unofficial_version_title">Versão não oficial</string>
+    <string name="unofficial_version_message">Você está usando uma versão modificada do FolkPatch. Para sua segurança, recomendamos baixar o aplicativo oficial.</string>
+    <string name="go_to_github">Acessar o GitHub</string>
     <string name="settings_save_theme">Salvar tema</string>
     <string name="settings_import_theme">Importar tema</string>
-    <string name="settings_theme_saved">Tema salvo</string>
-    <string name="settings_theme_imported">Tema importado</string>
-    <string name="settings_theme_save_failed">Falha ao salvar tema</string>
-    <string name="settings_theme_import_failed">Falha ao importar tema</string>
+    <string name="settings_theme_saved">Tema salvo com sucesso</string>
+    <string name="settings_theme_imported">Tema importado com sucesso</string>
+    <string name="settings_theme_save_failed">Erro ao salvar o tema</string>
+    <string name="settings_theme_import_failed">Erro ao importar o tema</string>
     <string name="settings_reset_theme">Redefinir tema</string>
-    <string name="settings_reset_theme_confirm">Tem certeza de que deseja redefinir todas as configurações do tema para os padrões? Isso limpará todos os planos de fundo, fontes, músicas e efeitos sonoros personalizados.</string>
+    <string name="settings_reset_theme_confirm">Deseja redefinir o tema para o padrão? Isso apagará todos os seus planos de fundo, fontes, músicas e efeitos sonoros personalizados.</string>
     <string name="settings_theme_reset">Tema redefinido</string>
-    <string name="settings_theme_reset_failed">Falha ao redefinir tema</string>
+    <string name="settings_theme_reset_failed">Erro ao redefinir o tema</string>
 
     <!-- Theme Strings -->
     <string name="theme_export_title">Exportar Tema</string>
@@ -786,7 +786,7 @@ Por favor, certifique-se de fechar completamente o app e reabri-lo para que os c
     <string name="settings_category_security_summary">Biometria, gerenciamento de superchave</string>
     <string name="settings_category_backup_summary">Backup local, backup na nuvem, WebDAV</string>
     <string name="settings_category_module_summary">Informações do módulo, classificação, instalação em lote</string>
-    <string name="settings_category_function_summary">Ocultar FolkPatch, serviço Umount</string>
+    <string name="settings_category_function_summary">Ocultar FolkPatch, serviço de desmontagem</string>
     <string name="settings_category_multimedia_summary">Música de fundo, sons, vibração</string>
     <string name="settings_music_playback_control">Controle de Reprodução</string>
 
@@ -842,63 +842,64 @@ Por favor, certifique-se de fechar completamente o app e reabri-lo para que os c
 
     <string name="settings_app_list_loading_scheme">Esquema de Carregamento da Lista de Apps</string>
     <string name="settings_app_list_loading_scheme_summary">Escolha como carregar a lista de aplicativos</string>
-    <string name="app_list_loading_scheme_root_service">RootService (Padrão)</string>
-    <string name="app_list_loading_scheme_package_manager">PackageManager (API do Sistema)</string>
+    <string name="app_list_loading_scheme_root_service">Serviço de root (Padrão)</string>
+    <string name="app_list_loading_scheme_package_manager">Gerenciador de pacotes (API do Sistema)</string>
     <string name="app_list_loading_scheme_dialog_title">Esquema de Carregamento</string>
     <string name="su_backup_list">Lista de backup</string>
     <string name="su_restore_list">Lista de restauração</string>
     <string name="backup_success">Backup bem-sucedido</string>
-    <!-- Badge Count Settings -->
-    <string name="enable_badge_count">Configurações do contador de selos</string>
-    <string name="enable_badge_count_summary">Configurar a exibição do contador de selos para itens de navegação</string>
-    <string name="badge_superuser">Mostrar selo de superusuário</string>
-    <string name="badge_apm">Mostrar selo de módulo do sistema</string>
-    <string name="badge_kernel">Mostrar selo de módulo do kernel</string>
+<!-- Badge Count Settings -->
+    <string name="enable_badge_count">Contador de notificações</string>
+    <string name="enable_badge_count_summary">Exibir indicadores numéricos nos itens de navegação.</string>
+    <string name="badge_superuser">Mostrar indicador de superusuário</string>
+    <string name="badge_apm">Mostrar indicador de módulo do sistema</string>
+    <string name="badge_kernel">Mostrar indicador de módulo do kernel</string>
+    
     <string name="settings_sound_effect">Efeito sonoro</string>
-    <string name="settings_sound_effect_summary">Tocar efeito sonoro ao clicar</string>
+    <string name="settings_sound_effect_summary">Reproduzir som ao tocar na tela.</string>
     <string name="settings_sound_effect_enabled">Ativado</string>
     <string name="settings_sound_effect_playing">Selecionado: %s</string>
-    <string name="settings_sound_effect_source">Fonte do som</string>
+    <string name="settings_sound_effect_source">Origem do áudio</string>
     <string name="settings_sound_effect_source_local">Arquivo local</string>
-    <string name="settings_sound_effect_source_preset">Predefinição</string>
-    <string name="settings_sound_effect_preset_title">Sons predefinidos</string>
+    <string name="settings_sound_effect_source_preset">Sons padrão</string>
+    <string name="settings_sound_effect_preset_title">Sons padrão</string>
     <string name="settings_select_sound_effect">Selecionar arquivo de som</string>
-    <string name="settings_sound_effect_selected">Arquivo de som selecionado</string>
-    <string name="settings_sound_effect_scope">Escopo do efeito</string>
-    <string name="settings_sound_effect_scope_global">Global (Em qualquer lugar)</string>
-    <string name="settings_sound_effect_scope_bottom_bar">Apenas barra inferior</string>
-    <string name="settings_clear_sound_effect">Limpar efeito sonoro</string>
-    <string name="settings_clear_sound_effect_confirm">Tem certeza que deseja limpar o efeito sonoro?</string>
-    <string name="settings_sound_effect_cleared">Efeito sonoro limpo</string>
+    <string name="settings_sound_effect_selected">Som selecionado</string>
+    <string name="settings_sound_effect_scope">Alcance do efeito</string>
+    <string name="settings_sound_effect_scope_global">Global (Em todo o app)</string>
+    <string name="settings_sound_effect_scope_bottom_bar">Apenas na barra inferior</string>
+    <string name="settings_clear_sound_effect">Remover efeito sonoro</string>
+    <string name="settings_clear_sound_effect_confirm">Deseja remover o efeito sonoro atual?</string>
+    <string name="settings_sound_effect_cleared">Efeito sonoro removido</string>
 
     <string name="settings_startup_sound">Som de inicialização</string>
-    <string name="settings_startup_sound_summary">Tocar som ao iniciar o aplicativo</string>
-    <string name="settings_startup_sound_enabled">Som de inicialização ativado</string>
-    <string name="settings_startup_sound_playing">Tocando: %s</string>
+    <string name="settings_startup_sound_summary">Reproduzir som ao abrir o aplicativo.</string>
+    <string name="settings_startup_sound_enabled">Ativado</string>
+    <string name="settings_startup_sound_playing">Reproduzindo: %s</string>
     <string name="settings_select_startup_sound">Selecionar som de inicialização</string>
     <string name="settings_startup_sound_selected">Som de inicialização selecionado</string>
-    <string name="settings_clear_startup_sound">Limpar som de inicialização</string>
-    <string name="settings_clear_startup_sound_confirm">Tem certeza que deseja limpar o som de inicialização?</string>
-    <string name="settings_startup_sound_cleared">Som de inicialização limpo</string>
+    <string name="settings_clear_startup_sound">Remover som de inicialização</string>
+    <string name="settings_clear_startup_sound_confirm">Deseja remover o som de inicialização?</string>
+    <string name="settings_startup_sound_cleared">Som de inicialização removido</string>
 
-    <string name="settings_enable_cloud_backup_summary">Backup automático na nuvem</string>
-    <string name="settings_configure_webdav">Configurar serviço WebDAV</string>
+    <string name="settings_enable_cloud_backup_summary">Fazer backup automático na nuvem.</string>
+    <string name="settings_configure_webdav">Configurar WebDAV</string>
     <string name="webdav_config_title">Configuração WebDAV</string>
-    <string name="webdav_url">URL WebDAV</string>
-    <string name="webdav_username">Nome de usuário</string>
+    <string name="webdav_url">URL do WebDAV</string>
+    <string name="webdav_username">Usuário</string>
     <string name="webdav_password">Senha</string>
-    <string name="webdav_uploading">Enviando para WebDAV...</string>
-    <string name="webdav_backup_success">Backup WebDAV bem-sucedido</string>
-    <string name="webdav_backup_failed">Falha no backup WebDAV: %s</string>
+    <string name="webdav_uploading">Enviando para o WebDAV…</string>
+    <string name="webdav_backup_success">Backup realizado com sucesso</string>
+    <string name="webdav_backup_failed">Erro no backup: %s</string>
     <string name="save">Salvar</string>
     <string name="test">Testar</string>
-    <string name="webdav_path_label">Caminho (ex. /Backup)</string>
+    <string name="webdav_path_label">Caminho (ex: /Backup)</string>
     <string name="webdav_view_logs">Ver logs</string>
-    <string name="webdav_backup_logs_title">Logs de Backup</string>
-    <string name="webdav_no_logs">Sem logs</string>
-    <string name="webdav_clear_logs">Limpar</string>
+    <string name="webdav_backup_logs_title">Logs de backup</string>
+    <string name="webdav_no_logs">Nenhum log encontrado</string>
+    <string name="webdav_clear_logs">Limpar logs</string>
     <string name="settings_enable_local_backup">Ativar backup local</string>
-    <string name="settings_enable_local_backup_summary">Backup de módulos para armazenamento local (Downloads/FolkPatch/ModuleBackups)</string>
+    <string name="settings_enable_local_backup_summary">Salvar backup dos módulos no armazenamento interno (Downloads/FolkPatch/ModuleBackups).</string>
     <string name="close">Fechar</string>
 
     <!-- Backup Settings -->
@@ -965,10 +966,10 @@ Por favor, certifique-se de fechar completamente o app e reabri-lo para que os c
     <string name="search_scripts">Buscar scripts...</string>
 
     <!-- Umount Service -->
-    <string name="settings_umount_service">Umount Service</string>
+    <string name="settings_umount_service">Serviço de desmontagem</string>
     <string name="settings_umount_service_summary">Configurar pontos de montagem para desmontar automaticamente na inicialização</string>
-    <string name="umount_config_title">Configuração do Umount</string>
-    <string name="umount_config_enabled">Ativar Umount</string>
+    <string name="umount_config_title">Configuração de desmontagem</string>
+    <string name="umount_config_enabled">Ativar desmontagem</string>
     <string name="umount_config_enabled_summary">Desmontar automaticamente pontos de montagem especificados na inicialização</string>
     <string name="umount_config_paths_label">Caminhos dos pontos de montagem (um por linha)</string>
     <string name="umount_config_paths_placeholder">/system/vendor/app\n/system/vendor/priv-app</string>
